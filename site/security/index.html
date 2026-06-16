@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="GlobalChat security policy.">
+    <title>Security - GlobalChat</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/"><img src="/icon.png" alt="" width="42" height="42"><span>GlobalChat</span></a>
+      <nav aria-label="Main navigation">
+        <a href="/privacy/">Privacy</a>
+        <a href="/terms/">Terms</a>
+        <a href="/security/">Security</a>
+      </nav>
+    </header>
+
+    <main>
+      <article class="content">
+        <span class="eyebrow">Security Policy</span>
+        <h1>Security</h1>
+        <p>Do not disclose vulnerabilities in public chat rooms or public issue trackers. Use the private security contact below and include reproduction steps, affected version, and impact.</p>
+
+        <h2>Contact</h2>
+        <p>Report security concerns to <a href="mailto:support@globalchats.net">support@globalchats.net</a>.</p>
+
+        <h2>Security Controls</h2>
+        <ul>
+          <li>Strict extension content security policy and no remote executable code.</li>
+          <li>Minimal extension permissions without all-site access, history, cookies, or content scripts.</li>
+          <li>Server-side authorization, validation, account-state checks, and rate limiting.</li>
+          <li>Database row-level security plus revoked direct write privileges.</li>
+          <li>Text-only message rendering and safe external-link attributes.</li>
+          <li>Soft deletion for user-hidden messages, retained moderator access to original records, and administrator audit records.</li>
+        </ul>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 GlobalChat.</p>
+    </footer>
+  </body>
+</html>
