@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="GlobalChat security policy.">
-    <title>Security - GlobalChat</title>
+    <meta name="description" content="GlobalChat privacy policy.">
+    <title>Privacy Policy - GlobalChat</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
@@ -19,22 +19,32 @@
 
     <main>
       <article class="content">
-        <span class="eyebrow">Security Policy</span>
-        <h1>Security</h1>
-        <p>Do not disclose vulnerabilities in public chat rooms or public issue trackers. Use the private security contact below and include reproduction steps, affected version, and impact.</p>
+        <span class="eyebrow">Last updated: June 16, 2026</span>
+        <h1>Privacy Policy</h1>
+        <p>GlobalChat processes a webpage address only after you click its toolbar button. It does not automatically monitor browsing, collect browsing history, or record page visits.</p>
+
+        <h2>Page Rooms</h2>
+        <p>For an activated page, the extension removes fragments and common tracking parameters, creates a SHA-256 room identifier locally, and sends that identifier to the service. The service stores the identifier and a hostname/path label only after the first message is posted. Raw query strings are not stored.</p>
+
+        <h2>Accounts</h2>
+        <p>Signed-in GlobalChat users may read public messages unless an account-level or website-level moderation ban applies. Posting requires a Google-authenticated account and a public username.</p>
+        <p>Google processes the OAuth login, and Supabase provides authentication, database, realtime, and server-function infrastructure. Supabase processes and stores the account identity and email needed for login. Other users cannot see your email address, Google identifier, authentication tokens, or Google profile information.</p>
+
+        <h2>Adult Users Only</h2>
+        <p>GlobalChat is intended only for adults who are 18 years of age or older. It is not directed to children or minors. If GlobalChat learns that an account belongs to a minor, GlobalChat may disable the account and delete or anonymize account information, subject to safety, moderation, security, and legal retention needs.</p>
+
+        <h2>Information Stored</h2>
+        <p>GlobalChat stores public usernames, messages, moderation reports, blocks, website-level bans, account status, moderation audit records, and security timestamps necessary to operate and protect the service. It does not sell personal information.</p>
+
+        <h2>User Controls And Retention</h2>
+        <p>Users may hide their own messages from public chat, block users, sign out, or request account deletion from Settings. Hidden messages are not physically destroyed; message content and moderation snapshots may remain visible to moderators and may be retained to investigate abuse, enforce policies, and respond to valid legal process.</p>
+        <p>Deleted accounts are disabled and anonymized in the product, but moderation snapshots such as user ID, last public username, message history, ban history, and audit records may be retained.</p>
+
+        <h2>Google API Limited Use</h2>
+        <p>GlobalChat's use of information received from Google APIs will adhere to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
 
         <h2>Contact</h2>
-        <p>Report security concerns to <a href="mailto:support@globalchats.net">support@globalchats.net</a>.</p>
-
-        <h2>Security Controls</h2>
-        <ul>
-          <li>Strict extension content security policy and no remote executable code.</li>
-          <li>Minimal extension permissions without all-site access, history, cookies, or content scripts.</li>
-          <li>Server-side authorization, validation, account-state checks, and rate limiting.</li>
-          <li>Database row-level security plus revoked direct write privileges.</li>
-          <li>Text-only message rendering and safe external-link attributes.</li>
-          <li>Soft deletion for user-hidden messages, retained moderator access to original records, and administrator audit records.</li>
-        </ul>
+        <p>Security or privacy questions should be sent to <a href="mailto:support@globalchats.net">support@globalchats.net</a>.</p>
       </article>
     </main>
 
